@@ -2,35 +2,53 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Projects/Sections/OOP/Inheritance/Abstract/Abstract.iml" filepath="$PROJECT_DIR$/Projects/Sections/OOP/Inheritance/Abstract/Abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Sections/OOP/Expand/Inheritance/Abstract/Abstract.iml" filepath="$PROJECT_DIR$/Projects/Sections/OOP/Expand/Inheritance/Abstract/Abstract.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/Arrangement/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Projects/Sections/Arrangement/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Introduction/Intro/BillDetail/BillDetail.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Introduction/Intro/BillDetail/BillDetail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Introduction/JavaUtil/CalculateAge.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Introduction/JavaUtil/CalculateAge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Introduction/Math/CalculateAreaCircle.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Introduction/Math/CalculateAreaCircle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/OOP/Expand/Interfaces/Catalogue.iml" filepath="$PROJECT_DIR$/Projects/Assignments/OOP/Expand/Interfaces/Catalogue.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/OOP/Intro/ClassesObjects/ClassesObjects.iml" filepath="$PROJECT_DIR$/Projects/Sections/OOP/Intro/ClassesObjects/ClassesObjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/Introduction/CommandLine/CommandLine.iml" filepath="$PROJECT_DIR$/Projects/Sections/Introduction/CommandLine/CommandLine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/OOP/Expand/Inheritance/Heritage/CompanyPeople/CompanyPeople.iml" filepath="$PROJECT_DIR$/Projects/Assignments/OOP/Expand/Inheritance/Heritage/CompanyPeople/CompanyPeople.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/Introduction/ControlFlow/ControlFlow.iml" filepath="$PROJECT_DIR$/Projects/Sections/Introduction/ControlFlow/ControlFlow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/Assignments/Arrangement/Arrays/GreatestOccurrence/GreatestOccurrence.iml" filepath="$PROJECT_DIR$/src/Assignments/Arrangement/Arrays/GreatestOccurrence/GreatestOccurrence.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Projects/Sections/OOP/Inheritance/Heritage/Heritage.iml" filepath="$PROJECT_DIR$/Projects/Sections/OOP/Inheritance/Heritage/Heritage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/Assignments/Arrangement/Arrays/HighestNumArray/HighestNumArray.iml" filepath="$PROJECT_DIR$/src/Assignments/Arrangement/Arrays/HighestNumArray/HighestNumArray.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Projects/Sections/OOP/Inheritance/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Projects/Sections/OOP/Inheritance/Interfaces/Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Introduction/Strings/FamilyNames.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Introduction/Strings/FamilyNames.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Introduction/Operators/FuelTankSystem/FuelTankSystem.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Introduction/Operators/FuelTankSystem/FuelTankSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Arrangement/Arrays/GreatestOccurrence/GreatestOccurrence.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Arrangement/Arrays/GreatestOccurrence/GreatestOccurrence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Sections/OOP/Expand/Inheritance/Heritage/Heritage.iml" filepath="$PROJECT_DIR$/Projects/Sections/OOP/Expand/Inheritance/Heritage/Heritage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Arrangement/Arrays/HighestNumArray/HighestNumArray.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Arrangement/Arrays/HighestNumArray/HighestNumArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Sections/OOP/Expand/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Projects/Sections/OOP/Expand/Interfaces/Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/Introduction/Intro/Intro.iml" filepath="$PROJECT_DIR$/Projects/Sections/Introduction/Intro/Intro.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/OOP/Intro/Example/InvoiceApp.iml" filepath="$PROJECT_DIR$/Projects/Sections/OOP/Intro/Example/InvoiceApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Introduction/ControlFlow/IterativeOptionsMenu/IterativeOptionsMenu.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Introduction/ControlFlow/IterativeOptionsMenu/IterativeOptionsMenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/Introduction/JavaUtil/JavaUtil.iml" filepath="$PROJECT_DIR$/Projects/Sections/Introduction/JavaUtil/JavaUtil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Introduction/Operators/LongestNameThreePeople/LongestNameThreePeople.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Introduction/Operators/LongestNameThreePeople/LongestNameThreePeople.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/OOP/Expand/Inheritance/Abstract/Mammals.iml" filepath="$PROJECT_DIR$/Projects/Assignments/OOP/Expand/Inheritance/Abstract/Mammals.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/Introduction/Math/Math.iml" filepath="$PROJECT_DIR$/Projects/Sections/Introduction/Math/Math.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/Arrangement/Matrix/Matrix.iml" filepath="$PROJECT_DIR$/Projects/Sections/Arrangement/Matrix/Matrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Introduction/ControlFlow/MultiplyTwoNumbers/MultiplyTwoNumbers.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Introduction/ControlFlow/MultiplyTwoNumbers/MultiplyTwoNumbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Introduction/Intro/NameConsole/NameConsole.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Introduction/Intro/NameConsole/NameConsole.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/Introduction/Numbers/Numbers.iml" filepath="$PROJECT_DIR$/Projects/Sections/Introduction/Numbers/Numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/Introduction/Operators/Operators.iml" filepath="$PROJECT_DIR$/Projects/Sections/Introduction/Operators/Operators.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/OOP/Overload/Overload.iml" filepath="$PROJECT_DIR$/Projects/Sections/OOP/Overload/Overload.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/OOP/Intro/Packages/Packages.iml" filepath="$PROJECT_DIR$/Projects/Sections/OOP/Intro/Packages/Packages.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/Introduction/Primitives/Primitives.iml" filepath="$PROJECT_DIR$/Projects/Sections/Introduction/Primitives/Primitives.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/Assignments/Arrangement/Matrix/PrintHair/PrintHair.iml" filepath="$PROJECT_DIR$/src/Assignments/Arrangement/Matrix/PrintHair/PrintHair.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/Assignments/Arrangement/Arrays/PrintHistogram/PrintHistogram.iml" filepath="$PROJECT_DIR$/src/Assignments/Arrangement/Arrays/PrintHistogram/PrintHistogram.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/Assignments/Arrangement/Matrix/PrintX/PrintX.iml" filepath="$PROJECT_DIR$/src/Assignments/Arrangement/Matrix/PrintX/PrintX.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Projects/Sections/OOP/Inheritance/Example/Repository.iml" filepath="$PROJECT_DIR$/Projects/Sections/OOP/Inheritance/Example/Repository.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/Assignments/Arrangement/Arrays/SortArrayLastFirst/SortArrayLastFirst.iml" filepath="$PROJECT_DIR$/src/Assignments/Arrangement/Arrays/SortArrayLastFirst/SortArrayLastFirst.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/Assignments/Arrangement/Arrays/StatisticalArray/StatisticalArray.iml" filepath="$PROJECT_DIR$/src/Assignments/Arrangement/Arrays/StatisticalArray/StatisticalArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Arrangement/Matrix/PrintHair/PrintHair.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Arrangement/Matrix/PrintHair/PrintHair.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Arrangement/Arrays/PrintHistogram/PrintHistogram.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Arrangement/Arrays/PrintHistogram/PrintHistogram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Arrangement/Matrix/PrintX/PrintX.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Arrangement/Matrix/PrintX/PrintX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/OOP/ClassesObjects/PurchaseOrderProject.iml" filepath="$PROJECT_DIR$/Projects/Assignments/OOP/ClassesObjects/PurchaseOrderProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Sections/OOP/Expand/Example/Repository.iml" filepath="$PROJECT_DIR$/Projects/Sections/OOP/Expand/Example/Repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Introduction/ControlFlow/SmallestNumMultipleValues/SmallestNumMultipleValues.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Introduction/ControlFlow/SmallestNumMultipleValues/SmallestNumMultipleValues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Arrangement/Arrays/SortArrayLastFirst/SortArrayLastFirst.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Arrangement/Arrays/SortArrayLastFirst/SortArrayLastFirst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Arrangement/Arrays/StatisticalArray/StatisticalArray.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Arrangement/Arrays/StatisticalArray/StatisticalArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/Introduction/Strings/Strings.iml" filepath="$PROJECT_DIR$/Projects/Sections/Introduction/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Introduction/ControlFlow/StudentGradingSystem/StudentGradingSystem.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Introduction/ControlFlow/StudentGradingSystem/StudentGradingSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/Introduction/System/System.iml" filepath="$PROJECT_DIR$/Projects/Sections/Introduction/System/System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/Introduction/Operators/TwoNumOrdered/TwoNumOrdered.iml" filepath="$PROJECT_DIR$/Projects/Assignments/Introduction/Operators/TwoNumOrdered/TwoNumOrdered.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/Introduction/ValueVsReference/ValueVsReference.iml" filepath="$PROJECT_DIR$/Projects/Sections/Introduction/ValueVsReference/ValueVsReference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/OOP/Expand/Inheritance/Heritage/VegetableWarehouse/VegetableWarehouse.iml" filepath="$PROJECT_DIR$/Projects/Assignments/OOP/Expand/Inheritance/Heritage/VegetableWarehouse/VegetableWarehouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Assignments/OOP/Expand/Inheritance/Heritage/WholesaleWarehouse/WholesaleWarehouse.iml" filepath="$PROJECT_DIR$/Projects/Assignments/OOP/Expand/Inheritance/Heritage/WholesaleWarehouse/WholesaleWarehouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Sections/Introduction/Wrapper/Wrapper.iml" filepath="$PROJECT_DIR$/Projects/Sections/Introduction/Wrapper/Wrapper.iml" />
     </modules>
   </component>
