@@ -1,3 +1,5 @@
+<img src="https://img-c.udemycdn.com/course/480x270/3078492_1a27_2.jpg" alt="Udemy" style="float: left; margin-right: 10px;">
+
 # Backup Repository - Complete Java Masterclass 2023
 
 This repository is used as a personal backup of the "Complete Java Masterclass 2023" course I purchased on Udemy. The main purpose of this repository is to store the code and resources provided in the course for secure and reliable access in case of data loss or accidental changes in my development environment.
