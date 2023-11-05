@@ -1,4 +1,4 @@
-package co.agomez.app.client;
+package co.agomez.app.model;
 
 abstract public class Electronic extends Product implements IElectronic {
 

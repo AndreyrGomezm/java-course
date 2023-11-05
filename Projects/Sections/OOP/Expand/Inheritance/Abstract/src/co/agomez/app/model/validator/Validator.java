@@ -1,4 +1,4 @@
-package co.agomez.app.client.validator;
+package co.agomez.app.model.validator;
 
 abstract public class Validator {
     protected String message;

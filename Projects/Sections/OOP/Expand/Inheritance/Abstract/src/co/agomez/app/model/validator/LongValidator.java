@@ -1,6 +1,6 @@
-package co.agomez.app.client.validator;
+package co.agomez.app.model.validator;
 
-import co.agomez.app.client.validator.message.IFormattableMessage;
+import co.agomez.app.model.validator.message.IFormattableMessage;
 
 public class LongValidator extends Validator implements IFormattableMessage {
     protected String message = "field %s must have min %d characters and max %d characters";

@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class OrderExample {
+public class Main {
     public static void main(String[] args) {
 
         PurchaseOrder order1 = new PurchaseOrder("Computer Components Purchase");

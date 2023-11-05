@@ -1,4 +1,4 @@
-package co.agomez.app.client.elements;
+package co.agomez.app.model.elements;
 
 public class InputForm extends FormElement {
     private String type = "text";

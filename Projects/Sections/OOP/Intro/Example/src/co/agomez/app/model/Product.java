@@ -1,4 +1,4 @@
-package Sections.OOP.Intro.InvoiceApp.src.co.agomez.app.model;
+package co.agomez.app.model;
 
 public class Product {
     private int id;

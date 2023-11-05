@@ -1,6 +1,6 @@
 package co.agomez.app.ui;
 
-import co.agomez.app.client.Person;
+import co.agomez.app.model.Person;
 
 public class Dog {
 

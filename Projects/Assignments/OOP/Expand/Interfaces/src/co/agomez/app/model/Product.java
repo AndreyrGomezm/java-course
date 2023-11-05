@@ -1,4 +1,4 @@
-package co.agomez.app.client;
+package co.agomez.app.model;
 
 public abstract class Product implements IProduct {
     private int price;

@@ -1,9 +1,9 @@
-package co.agomez.app.client.elements;
+package co.agomez.app.model.elements;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import co.agomez.app.client.elements.select.Option;
+import co.agomez.app.model.elements.select.Option;
 
 public class SelectForm extends FormElement {
     private List<Option> options;

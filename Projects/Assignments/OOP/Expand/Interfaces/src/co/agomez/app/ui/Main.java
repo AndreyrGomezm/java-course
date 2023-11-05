@@ -1,6 +1,6 @@
 package co.agomez.app.ui;
 
-import co.agomez.app.client.*;
+import co.agomez.app.model.*;
 
 public class Main {
     public static void main(String[] args) {

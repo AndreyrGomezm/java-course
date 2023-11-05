@@ -1,4 +1,4 @@
-package co.agomez.app.client.validator;
+package co.agomez.app.model.validator;
 
 public class EmailValidator extends Validator {
     protected String message = "field %s has an invalid mail format";

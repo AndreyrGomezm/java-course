@@ -1,10 +1,7 @@
 package co.agomez.app.ui;
 
-import static co.agomez.app.model.repo.Address.*;
 import co.agomez.app.model.client.Client;
-import co.agomez.app.model.repo.ClientsList;
-import co.agomez.app.model.repo.IFull;
-import co.agomez.app.repo.*;
+import co.agomez.app.model.repo.*;
 
 import java.util.List;
 
@@ -24,7 +21,7 @@ public class Main {
         pageable.forEach(System.out::print);
 
         System.out.println("===== order =====");
-        List<Client> order = repo.toList("lastName", ASC);
+        List<Client> order = repo.toList("lastName", Address.ASC);
         order.forEach(System.out::print);
 
         System.out.println("===== edit =====");
@@ -35,7 +32,7 @@ public class Main {
         System.out.println(bea);
 
         System.out.println("================");
-        repo.toList("lastName", ASC).forEach(System.out::print);
+        repo.toList("lastName", Address.ASC).forEach(System.out::print);
 
         System.out.println("===== delete =====");
         repo.delete(2);

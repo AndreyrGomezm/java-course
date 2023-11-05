@@ -1,4 +1,4 @@
-package co.agomez.app.client.elements;
+package co.agomez.app.model.elements;
 
 public class TextareaForm extends FormElement {
     private int rows;

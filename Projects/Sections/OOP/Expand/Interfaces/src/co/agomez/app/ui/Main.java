@@ -1,6 +1,5 @@
 package co.agomez.app.ui;
 
-import co.agomez.app.client.*;
 import co.agomez.app.model.*;
 
 import static co.agomez.app.model.Gender.*;

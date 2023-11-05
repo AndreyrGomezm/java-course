@@ -1,4 +1,4 @@
-package Sections.OOP.Intro.InvoiceApp.src.co.agomez.app.model;
+package co.agomez.app.model;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -7,13 +7,13 @@ public class Invoice {
     private int id;
     private String description;
     private Date date;
-    private Customer customer;
+    private Client customer;
     private InvoiceItem[] items;
     private int indexItems;
     private static int lastId;
     public static final int MAX_ITEMS = 12;
 
-    public Invoice(String description, Customer customer) {
+    public Invoice(String description, Client customer) {
         this.description = description;
         this.customer = customer;
         items = new InvoiceItem[MAX_ITEMS];
@@ -41,11 +41,11 @@ public class Invoice {
         this.date = date;
     }
 
-    public Customer getCustomer() {
+    public Client getCustomer() {
         return customer;
     }
 
-    public void setCustomer(Customer customer) {
+    public void setCustomer(Client customer) {
         this.customer = customer;
     }
 
@@ -70,7 +70,7 @@ public class Invoice {
     public String detail() {
         StringBuilder sb = new StringBuilder("Invoice N°: ");
         sb.append(id)
-                .append("\nCustomer: ").append(customer.getName())
+                .append("\nClient: ").append(customer.getName())
                 .append("\trut: ").append(customer.getRut())
                 .append("\nDescription: ").append(description)
                 .append("\n");

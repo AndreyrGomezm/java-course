@@ -1,8 +1,8 @@
 package co.agomez.app.ui;
 
-import co.agomez.app.client.*;
-import static co.agomez.app.client.Person.*;
-import static co.agomez.app.client.HairColor.*;
+import co.agomez.app.model.*;
+import static co.agomez.app.model.Person.*;
+import static co.agomez.app.model.HairColor.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {

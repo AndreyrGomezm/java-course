@@ -1,4 +1,4 @@
-package co.agomez.app.client.elements.select;
+package co.agomez.app.model.elements.select;
 
 public class Option {
     private String value;

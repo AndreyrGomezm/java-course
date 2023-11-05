@@ -1,4 +1,4 @@
-package co.agomez.app.client.validator;
+package co.agomez.app.model.validator;
 
 public class NotNullValidator extends Validator {
     protected String message = "field %s cannot be null";

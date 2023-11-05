@@ -1,6 +1,6 @@
-package Sections.OOP.Intro.InvoiceApp.src.co.agomez.app.model;
+package co.agomez.app.model;
 
-public class Customer {
+public class Client {
     private String name;
     private String rut;
 

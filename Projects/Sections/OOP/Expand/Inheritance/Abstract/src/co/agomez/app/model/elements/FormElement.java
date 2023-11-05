@@ -1,10 +1,9 @@
-package co.agomez.app.client.elements;
+package co.agomez.app.model.elements;
 
 import java.util.*;
 
-import co.agomez.app.client.validator.Validator;
-import co.agomez.app.client.validator.message.IFormattableMessage;
-import co.agomez.app.validator.*;
+import co.agomez.app.model.validator.*;
+import co.agomez.app.model.validator.message.IFormattableMessage;
 
 abstract public class FormElement {
     protected String name;

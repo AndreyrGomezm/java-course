@@ -2,14 +2,12 @@ package co.agomez.app.ui;
 
 import java.util.*;
 
-import co.agomez.app.elements.*;
-import co.agomez.app.client.elements.FormElement;
-import co.agomez.app.client.elements.InputForm;
-import co.agomez.app.client.elements.SelectForm;
-import co.agomez.app.client.elements.TextareaForm;
-import co.agomez.app.client.validator.*;
-import co.agomez.app.validator.*;
-import co.agomez.app.client.elements.select.Option;
+import co.agomez.app.model.elements.FormElement;
+import co.agomez.app.model.elements.InputForm;
+import co.agomez.app.model.elements.SelectForm;
+import co.agomez.app.model.elements.TextareaForm;
+import co.agomez.app.model.validator.*;
+import co.agomez.app.model.elements.select.Option;
 
 public class Main {
     public static void main(String[] args) {

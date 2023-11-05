@@ -1,4 +1,4 @@
-package co.agomez.app.client.validator;
+package co.agomez.app.model.validator;
 
 public class NumValidator extends Validator {
     protected String message = "field %s must be a num";

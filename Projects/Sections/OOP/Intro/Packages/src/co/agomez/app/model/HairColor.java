@@ -1,4 +1,4 @@
-package co.agomez.app.client;
+package co.agomez.app.model;
 
 public enum HairColor {
     BLACK, BROWN, BLONDE, COLORFUL

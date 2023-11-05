@@ -1,11 +1,13 @@
 package co.agomez.app.ui;
 
+import co.agomez.app.model.*;
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-        Customer customer = new Customer();
+        Client customer = new Client();
         customer.setRut("5555-5");
         customer.setName("Andrey");
 
