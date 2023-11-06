@@ -4,7 +4,7 @@ public class RandomExample {
     public static void main(String[] args) {
 
         // Definir un arreglo de colores
-        String[] colors = { "blue", "yellow", "red", "green", "white", "black" };
+        String[] colors = {"blue", "yellow", "red", "green", "white", "black"};
 
         // Generar un número decimal aleatorio entre 0 (inclusive) y 1 (exclusivo)
         // usando Math.random()

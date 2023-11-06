@@ -18,20 +18,13 @@ public class EnumAutomobileExample {
 
         type = mazda.getType();
         switch (type) {
-            case CONVERTIBLE ->
-                System.out.println("It's a two-door convertible sports car.");
-            case COUPE ->
-                System.out.println("It's a small, two-door, typically sporty car.");
-            case VAN ->
-                System.out.println("It's a utility car for transportation, business.");
-            case HATCHBACK ->
-                System.out.println("It's a compact midsize car, sporty appearance.");
-            case PICKUP ->
-                System.out.println("It's a double cabin car or truck.");
-            case SEDAN ->
-                System.out.println("It's a midsize car.");
-            case STATION_WAGON ->
-                System.out.println("It's a bigger car, with a big suitcase.");
+            case CONVERTIBLE -> System.out.println("It's a two-door convertible sports car.");
+            case COUPE -> System.out.println("It's a small, two-door, typically sporty car.");
+            case VAN -> System.out.println("It's a utility car for transportation, business.");
+            case HATCHBACK -> System.out.println("It's a compact midsize car, sporty appearance.");
+            case PICKUP -> System.out.println("It's a double cabin car or truck.");
+            case SEDAN -> System.out.println("It's a midsize car.");
+            case STATION_WAGON -> System.out.println("It's a bigger car, with a big suitcase.");
         }
 
         Type[] types = Type.values();

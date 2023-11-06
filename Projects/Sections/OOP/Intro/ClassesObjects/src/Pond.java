@@ -1,5 +1,5 @@
 public class Pond {
-    private int capacity;
+    private final int capacity;
 
     public Pond() {
         capacity = 40;

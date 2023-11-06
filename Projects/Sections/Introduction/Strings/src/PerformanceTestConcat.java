@@ -36,7 +36,7 @@ public class PerformanceTestConcat {
 
         // Imprimir las cadenas resultantes (c y sb)
         System.out.println("c = " + c);
-        System.out.println("sb = " + sb.toString());
+        System.out.println("sb = " + sb);
 
         // Salir del programa
         System.exit(0);

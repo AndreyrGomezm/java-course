@@ -21,7 +21,7 @@ public class MultiplyWithoutOperator {
             result = result + b;
         }
 
-        if ((!positiveA && !positiveB) || !positiveA) {
+        if (!positiveA) {
             result = -result;
         }
 

@@ -1,7 +1,7 @@
 public class Wheel {
-    private String maker;
-    private int ring;
-    private double wide;
+    private final String maker;
+    private final int ring;
+    private final double wide;
 
     public Wheel(String maker, int ring, double wide) {
         this.maker = maker;

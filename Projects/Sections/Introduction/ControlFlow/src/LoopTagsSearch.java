@@ -15,7 +15,8 @@ public class LoopTagsSearch {
         int quantity = 0;
 
         // Etiqueta 'search' para el bucle exterior
-        search: for (int i = 0; i <= maxPhrase;) {
+        search:
+        for (int i = 0; i <= maxPhrase; ) {
 
             // Inicializar la variable 'k' para rastrear la posición en la frase
             int k = i;

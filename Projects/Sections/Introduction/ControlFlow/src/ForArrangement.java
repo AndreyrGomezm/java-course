@@ -1,10 +1,10 @@
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
 public class ForArrangement {
     public static void main(String[] args) {
 
         // Declarar un arreglo de nombres.
-        String[] names = { "Andrey", "Pepe", "Maria", "Paco", "Lalo", "Bea", "Pato", "Pepa" };
+        String[] names = {"Andrey", "Pepe", "Maria", "Paco", "Lalo", "Bea", "Pato", "Pepa"};
 
         // Obtener la cantidad de elementos en el arreglo.
         int count = names.length;

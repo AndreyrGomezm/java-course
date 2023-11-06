@@ -2,7 +2,8 @@ public class LoopTags {
     public static void main(String[] args) {
 
         // Etiqueta de bucle "loop1"
-        loop1: for (int i = 1; i < 7; i++) {
+        loop1:
+        for (int i = 1; i < 7; i++) {
             int j = 1;
             while (j <= 8) {
                 if (i == 6 || i == 7) {
@@ -16,7 +17,8 @@ public class LoopTags {
         System.out.println("\n======================================================================");
 
         // Etiqueta de bucle "loop2"
-        loop2: for (int i = 0; i < 5; i++) {
+        loop2:
+        for (int i = 0; i < 5; i++) {
 
             System.out.println();
             int j = 0;
@@ -31,7 +33,8 @@ public class LoopTags {
         System.out.println("\n======================================================================");
 
         // Etiqueta de bucle "loop3"
-        loop3: for (int i = 0; i < 5; i++) {
+        loop3:
+        for (int i = 0; i < 5; i++) {
 
             System.out.println();
             for (int j = 0; j < 5; j++) {

@@ -1,5 +1,16 @@
 public class Automobile implements Comparable<Automobile> {
 
+    public static final int MAXIMUM_ROAD_SPEED = 120;
+    public static final int MAXIMUM_CITY_SPEED = 60;
+    public static final String COLOR_RED = "Red";
+    public static final String COLOR_YELLOW = "Yellow";
+    public static final String COLOR_BLUE = "Blue";
+    public static final String COLOR_WHITE = "White";
+    public static final String COLOR_GREY = "Dark gray";
+    public static final String COLOR_ORANGE = "Orange";
+    private static Color patentColor = Color.ORANGE;
+    private static int staticPondCapacity = 30;
+    private static int lastId;
     private int id;
     private String maker;
     private String model;
@@ -9,22 +20,7 @@ public class Automobile implements Comparable<Automobile> {
     private Person owner;
     private Wheel[] wheels;
     private int indexWheels;
-
     private Type type;
-
-    private static Color patentColor = Color.ORANGE;
-    private static int staticPondCapacity = 30;
-    private static int lastId;
-
-    public static final int MAXIMUM_ROAD_SPEED = 120;
-    public static final int MAXIMUM_CITY_SPEED = 60;
-
-    public static final String COLOR_RED = "Red";
-    public static final String COLOR_YELLOW = "Yellow";
-    public static final String COLOR_BLUE = "Blue";
-    public static final String COLOR_WHITE = "White";
-    public static final String COLOR_GREY = "Dark gray";
-    public static final String COLOR_ORANGE = "Orange";
 
     public Automobile() {
         id = ++lastId;
@@ -57,6 +53,26 @@ public class Automobile implements Comparable<Automobile> {
         this(maker, model, color, motor, pond);
         this.owner = owner;
         this.wheels = wheels;
+    }
+
+    public static Color getPatentColor() {
+        return patentColor;
+    }
+
+    public static void setPatentColor(Color patentColor) {
+        Automobile.patentColor = patentColor;
+    }
+
+    public static int getStaticPondCapacity() {
+        return staticPondCapacity;
+    }
+
+    public static void setStaticPondCapacity(int staticPondCapacity) {
+        Automobile.staticPondCapacity = staticPondCapacity;
+    }
+
+    public static double calculateStaticConsumption(int km, int percentageBenzine) {
+        return km / (staticPondCapacity * (percentageBenzine / 100d));
     }
 
     public String getMaker() {
@@ -100,22 +116,6 @@ public class Automobile implements Comparable<Automobile> {
 
     public void setPond(Pond pond) {
         this.pond = pond;
-    }
-
-    public static Color getPatentColor() {
-        return patentColor;
-    }
-
-    public static void setPatentColor(Color patentColor) {
-        Automobile.patentColor = patentColor;
-    }
-
-    public static int getStaticPondCapacity() {
-        return staticPondCapacity;
-    }
-
-    public static void setStaticPondCapacity(int staticPondCapacity) {
-        Automobile.staticPondCapacity = staticPondCapacity;
     }
 
     public int getId() {
@@ -205,10 +205,6 @@ public class Automobile implements Comparable<Automobile> {
 
     public double calculateConsumption(int km, int percentageBenzine) {
         return km / (getPond().getCapacity() * (percentageBenzine / 100d));
-    }
-
-    public static double calculateStaticConsumption(int km, int percentageBenzine) {
-        return km / (staticPondCapacity * (percentageBenzine / 100d));
     }
 
     @Override

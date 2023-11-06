@@ -1,6 +1,6 @@
 # Backup Repository - Complete Java Masterclass 2023
 
-This repository is used as a personal backup of the "Complete Java Masterclass 2023" course I purchased on Udemy. The main purpose of this repository is to store the code and resources provided in the course for secure and reliable access in case of data loss or accidental changes in my development environment.
+This repository is used as a personal backup of the "Complete Java Masterclass 2023" course I purchased on Udemy. The ui purpose of this repository is to store the code and resources provided in the course for secure and reliable access in case of data loss or accidental changes in my development environment.
 
 ## About the Course
 

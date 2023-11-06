@@ -2,7 +2,7 @@ public class PassByReference {
     public static void main(String[] args) {
 
         // Crear un arreglo 'age' de enteros y asignarle valores iniciales
-        int[] age = { 10, 11, 12 };
+        int[] age = {10, 11, 12};
 
         // Imprimir un mensaje para indicar el inicio del método 'main'
         System.out.println("We start main method");

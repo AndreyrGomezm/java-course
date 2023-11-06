@@ -21,11 +21,11 @@ public class Relational {
         System.out.println("b3 = " + b3); // Imprimir el resultado de la comparación.
 
         // Uso del operador de igualdad (==) para comparar 'm' y 'true'.
-        boolean b4 = m == true;
+        boolean b4 = m;
         System.out.println("b4 = " + b4); // Imprimir el resultado de la comparación.
 
         // Uso del operador de desigualdad (!=) para comparar 'm' y 'true'.
-        boolean b5 = m != true;
+        boolean b5 = !m;
         System.out.println("b5 = " + b5); // Imprimir el resultado de la comparación.
 
         // Uso del operador de mayor que (>) para comparar 'i' y 'j'.

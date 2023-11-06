@@ -12,7 +12,7 @@ public enum Type {
     private final int doorNum;
     private final String description;
 
-    private Type(String name, String description, int doorNum) {
+    Type(String name, String description, int doorNum) {
         this.name = name;
         this.doorNum = doorNum;
         this.description = description;

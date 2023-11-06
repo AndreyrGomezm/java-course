@@ -9,7 +9,7 @@ public class Logical {
 
         // Uso del operador lógico AND (&&) para combinar múltiples condiciones.
         // b1 será verdadero (true) si todas las condiciones son verdaderas.
-        boolean b1 = i == j && k < l && m == false;
+        boolean b1 = i == j && k < l && !m;
         System.out.println("b1 = " + b1); // Imprimir el resultado de la combinación.
 
         // Uso del operador lógico OR (||) para combinar múltiples condiciones.
@@ -21,23 +21,23 @@ public class Logical {
         // evaluación.
         // b3 será verdadero (true) si la primera condición es verdadera o si ambas
         // condiciones dentro de los paréntesis son verdaderas.
-        boolean b3 = i == j && (k > l || m == true);
+        boolean b3 = i == j && (k > l || m);
         System.out.println("b3 = " + b3); // Imprimir el resultado de la combinación.
 
         // Uso de paréntesis para cambiar la prioridad de evaluación.
         // b4 será verdadero (true) si la primera condición dentro de los paréntesis es
         // verdadera y m es verdadero.
-        boolean b4 = (i == j || k < l) && m == true;
+        boolean b4 = (i == j || k < l) && m;
         System.out.println("b4 = " + b4); // Imprimir el resultado de la combinación.
 
         // Ejemplo de evaluación de expresiones lógicas.
-        boolean b5 = (true || true) && false; // false
+        boolean b5 = false; // false
         System.out.println("b5 = " + b5);
 
-        boolean b6 = true || false && false || false; // true
+        boolean b6 = true; // true
         System.out.println("b6 = " + b6);
 
-        boolean b7 = ((true || false) && false) || false; // true
+        boolean b7 = false; // true
         System.out.println("b7 = " + b7);
     }
 }

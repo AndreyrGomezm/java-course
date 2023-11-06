@@ -17,7 +17,7 @@ public class SwitchCase {
             case 1 -> monthName = "January";
 
             default ->
-                monthName = "Undefined"; // Si el número no corresponde a ningún mes, se establece como "Indefinido".
+                    monthName = "Undefined"; // Si el número no corresponde a ningún mes, se establece como "Indefinido".
         }
 
         // Imprimir el nombre del mes.

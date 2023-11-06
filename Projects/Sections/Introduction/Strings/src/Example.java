@@ -2,7 +2,7 @@ public class Example {
     public static void main(String[] args) {
         // Declaración de dos cadenas 'course' y 'course2' de la misma forma
         String course = "Java Programming";
-        String course2 = new String("Java Programming");
+        String course2 = "Java Programming";
 
         // Comparación de las referencias de 'course' y 'course2' utilizando el operador
         // '=='

@@ -3,7 +3,7 @@ public class AutoboxingInteger {
 
         // Creación de un arreglo de objetos Integer utilizando diferentes formas
         // de autoboxing
-        Integer[] integers = { Integer.valueOf(1), 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
+        Integer[] integers = {Integer.valueOf(1), 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
 
         // Inicialización de la suma
         int sum = 0;
