@@ -3,13 +3,14 @@ package app.model.repo.list;
 import app.model.repo.AbstractList;
 import app.model.entity.Client;
 import app.model.repo.Address;
+import app.model.repo.exceptions.ReadingDataAccessException;
 
 import java.util.*;
 
 public class ClientList extends AbstractList<Client> {
 
     @Override
-    public ClientList edit(Client client) {
+    public ClientList edit(Client client) throws ReadingDataAccessException {
         Client c = byId(client.getId());
         c.setName(client.getName());
         c.setLastName(client.getLastName());

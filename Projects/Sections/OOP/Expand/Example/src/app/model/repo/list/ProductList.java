@@ -3,12 +3,13 @@ package app.model.repo.list;
 import app.model.entity.Product;
 import app.model.repo.AbstractList;
 import app.model.repo.Address;
+import app.model.repo.exceptions.ReadingDataAccessException;
 
 import java.util.*;
 
 public class ProductList extends AbstractList<Product> {
     @Override
-    public ProductList edit(Product product) {
+    public ProductList edit(Product product) throws ReadingDataAccessException {
         Product p = byId(product.getId());
         p.setDescription(product.getDescription());
         p.setPrice(product.getPrice());
